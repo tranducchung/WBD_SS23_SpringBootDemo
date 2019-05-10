@@ -7,7 +7,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class controllerHello {
-    @GetMapping("/hello")
+    @GetMapping("/")
     public ModelAndView Hello(){
         return new ModelAndView("greeting","name","Word");
     }
